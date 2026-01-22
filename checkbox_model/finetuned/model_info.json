@@ -1,0 +1,11 @@
+{
+    "backbone": "google/paligemma-3b-mix-224",
+    "task": "checkbox classification",
+    "classes": [
+        "unchecked",
+        "checked"
+    ],
+    "fine_tuning": "classifier head only",
+    "classifier_type": "MLP",
+    "notes": "Vision embeddings frozen; classifier trained on extracted features"
+}

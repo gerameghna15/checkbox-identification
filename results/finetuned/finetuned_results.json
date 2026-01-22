@@ -1,0 +1,7 @@
+{
+    "model": "PaliGemma + trained classifier",
+    "accuracy": 0.82,
+    "macro_precision": 0.859106722028953,
+    "macro_recall": 0.8200000000000001,
+    "macro_f1": 0.8149623499781553
+}

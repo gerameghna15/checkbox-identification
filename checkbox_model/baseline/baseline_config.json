@@ -1,0 +1,18 @@
+{
+    "dataset_root": "/content/cropped_checkboxes_binary_small",
+    "seed": 42,
+    "device_used": "cuda if available else cpu",
+    "classifier_architecture": {
+        "type": "Linear",
+        "output_classes": 2
+    },
+    "evaluation": {
+        "metrics": [
+            "accuracy",
+            "macro_precision",
+            "macro_recall",
+            "macro_f1"
+        ],
+        "confusion_matrix": true
+    }
+}

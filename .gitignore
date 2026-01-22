@@ -1,0 +1,41 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Data (ignore everything by default)
+data/raw/
+data/processed/
+
+# ---- ALLOW ONLY SMALL TEST SET ----
+!data/processed/
+!data/processed/cropped_checkboxes_binary_small/
+!data/processed/cropped_checkboxes_binary_small/test/
+!data/processed/cropped_checkboxes_binary_small/test/**
+
+# ---- EXPLICITLY IGNORE EVERYTHING ELSE ----
+data/processed/cropped_checkboxes_binary/
+data/processed/cropped_checkboxes_binary_small/train/
+data/processed/cropped_checkboxes_binary_small/valid/
+
+
+
+# Models (optional – if large)
+*.bin
+*.safetensors
+
+# OS
+.DS_Store
+
+# Env
+.env
+
+# Hugging Face cache / tokenizer artifacts
+app/*.json
+app/tokenizer*
+app/nohup.out
+

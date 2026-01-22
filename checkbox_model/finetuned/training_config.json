@@ -1,0 +1,13 @@
+{
+    "epochs": 15,
+    "optimizer": "Adam",
+    "learning_rate": 0.001,
+    "loss_function": "CrossEntropyLoss",
+    "classifier_architecture": {
+        "input_features": 2048,
+        "hidden_units": 256,
+        "activation": "ReLU",
+        "dropout": 0.3,
+        "output_classes": 2
+    }
+}

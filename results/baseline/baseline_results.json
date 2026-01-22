@@ -1,0 +1,7 @@
+{
+    "model": "PaliGemma (frozen embeddings)",
+    "accuracy": 0.5,
+    "macro_precision": 0.25,
+    "macro_recall": 0.5,
+    "macro_f1": 0.3333
+}

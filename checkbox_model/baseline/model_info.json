@@ -1,0 +1,12 @@
+{
+    "backbone": "google/paligemma-3b-mix-224",
+    "task": "checkbox classification",
+    "classes": [
+        "unchecked",
+        "checked"
+    ],
+    "fine_tuning": "none (baseline)",
+    "classifier_type": "Linear (random initialization)",
+    "feature_extraction": "PaliGemma last_hidden_state mean pooling",
+    "notes": "Frozen vision embeddings + random linear head used only for baseline evaluation"
+}
